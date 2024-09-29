@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+*:focus {
+    outline: 1px solid #3d5afe;
+    color: #3d5afe !important;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: #e8eaf6;
+    border-radius: 160px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #c5cae9;
+    border-radius: 160px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo img {
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.formlogin {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 400px;
+    position: relative;
+    top: -20px;
+}
+
+.login {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.login input {
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+#nhopass {
+    width: 5px;
+}
+
+.PASS p1 {
+    font-size: 13px;
+    margin-right: 5px;
+    position: relative;
+    top: -13px;
+}
+
+.PASS p2 {
+    font-size: 13px;
+    margin-left: 138px;
+    position: relative;
+    top: -13px;
+}
+
+
+
+.login p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.login h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 190px;
+}
+
+.login h6 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.login a {
+    font-size: 15px;
+    color: #0061fe;
+}
+
+.login button {
+    width: 350px;
+    height: 50px;
+    background-color: #ffa57d;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+} 
+
+#backuot {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -300px;
+    left: 15px;
+    
+}
+
+#tandat {
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Phần Đăng Ký By TanDat*/
+.formsigin {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 400px;
+    position: relative;
+    top: -20px;
+}
+
+.sigin {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+}
+
+.sigin input {
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    color: #000000;
+    margin-top: 100px;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+.sigin input:placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+.sigin input:focus {
+    border: 1px solid #000000;
+    color: #000000;
+    outline: none;
+}
+
+#dieukhoan {
+    width: 5px;
+    position: relative;
+    top: -90px;
+}
+
+.sigin a {
+    font-size: 13px;
+    color: #285ff4;
+    text-decoration: underline;
+    position: relative;
+    top: -103px;
+    left: 10px;
+}
+
+.sigin h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 190px;
+}
+
+.sigin p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: #474747;
+}
+
+.sigin h6 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: -30px;
+}
+
+#dangnhap {
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: 0px;
+}
+
+.sigin button {
+    width: 350px;
+    height: 50px;
+    background-color: #adadad;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: -40px;
+} 
+
+.sigin button.active { 
+    background-color: #ff8c82;
+}
